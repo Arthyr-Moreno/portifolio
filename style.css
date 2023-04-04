@@ -50,10 +50,11 @@ header{
     transition: 0.3s all;
 }
 .logo{
+    margin-top: 10px;
     height: 40px;
     width: 40px;
     background: transparent;
-    border:3px solid #e02424;
+    border:2px solid #e02424;
     color: #e02424;
     border-radius: 50%;
     display: inline-flex;
