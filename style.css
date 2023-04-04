@@ -34,25 +34,27 @@ header{
     display: flex;
     gap: 3rem;
     font-weight: 300;
-    cursor: pointer;
+    
 
 }
 .cabeçalho-link a{
-    color:white;
+    color:#fff;
     font-size: 20px;
+    cursor: pointer;
 
 }
 
 .cabeçalho-link a :hover{
-    color: #2ecc71; 
+    
+    color: #e02424; 
     transition: 0.3s all;
 }
 .logo{
     height: 40px;
     width: 40px;
     background: transparent;
-    border:1px solid #2ecc71;
-    color: #2ecc71;
+    border:3px solid #e02424;
+    color: #e02424;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -62,9 +64,9 @@ header{
 
 }
 button{
-    color:#2ecc71;
+    color: #e02424;
     background: transparent;
-    border:solid 1px #2ecc71;
+    border:solid 1px #e02424;
     padding: 5px;
     border-radius: 15px;
     font-size: 12px;
@@ -72,7 +74,7 @@ button{
     cursor:pointer;
 }
 button:hover{
-    background-color: #2ecc71;
+    background-color: #e02424;
     color: #fff;
     transition: 0.5s;
 }
@@ -91,7 +93,7 @@ button:hover{
 }
 
 .text span{
-    color: #2ecc71;
+    color: #e02424;
 
 }
 .text p{
@@ -101,7 +103,7 @@ button:hover{
     margin-top: 10x;
 }
 .redes-sociais a{
-    color:#2ecc71;
+    color:#e02424;
     padding: 10px;
     margin-top: 5px;
 }
