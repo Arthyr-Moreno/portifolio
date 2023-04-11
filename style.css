@@ -45,12 +45,12 @@ header{
 }
 
 .cabeçalho-link a :hover{
-    
+    background-color: #fff;
     color: #e02424; 
     transition: 0.3s all;
 }
 .logo{
-    margin-top: 10px;
+    
     height: 40px;
     width: 40px;
     background: transparent;
@@ -111,3 +111,45 @@ button:hover{
 .btn{
     margin-top: 10px;
 }
+
+
+
+
+#imagem-redonda{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #e02424;
+    cursor: pointer;
+    
+
+    
+    
+    
+}
+
+h1{
+    font-family: monospace;
+    border-right: 4px solid;
+    width:25ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(25), blinking 0.5s infinite step-end alternate;
+
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes blinking {
+    50%{
+        border-color: transparent;
+    }
+    
+}
+
+
+
+
