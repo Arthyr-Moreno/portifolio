@@ -135,7 +135,12 @@ h1{
     width:25ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s steps(25), blinking 0.5s infinite step-end alternate;
+    animation: typing 2s steps(25) alternate-reverse infinite, blinking 0.5s infinite alternate-reverse;
+    
+    
+    
+    
+    
 
 }
 @keyframes typing{
